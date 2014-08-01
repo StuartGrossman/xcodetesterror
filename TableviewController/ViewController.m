@@ -13,6 +13,17 @@
 @end
 
 @implementation ViewController
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 5;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellSelectionStyleDefault reuseIdentifier:@"cell"];
+    
+    cell.textLabel.text = @"this is a cell";
+    
+    return cell;
+}
 
 - (void)viewDidLoad
 {

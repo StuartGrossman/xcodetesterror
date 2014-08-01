@@ -112,8 +112,6 @@
 		2005D108198C318900717819 /* TableviewController */ = {
 			isa = PBXGroup;
 			children = (
-				2005D111198C318900717819 /* AppDelegate.h */,
-				2005D112198C318900717819 /* AppDelegate.m */,
 				2005D114198C318900717819 /* Main.storyboard */,
 				2005D117198C318900717819 /* ViewController.h */,
 				2005D118198C318900717819 /* ViewController.m */,
@@ -126,6 +124,8 @@
 		2005D109198C318900717819 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2005D112198C318900717819 /* AppDelegate.m */,
+				2005D111198C318900717819 /* AppDelegate.h */,
 				2005D10A198C318900717819 /* TableviewController-Info.plist */,
 				2005D10B198C318900717819 /* InfoPlist.strings */,
 				2005D10E198C318900717819 /* main.m */,
